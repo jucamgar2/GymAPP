@@ -1,0 +1,15 @@
+name: "🚀🆕 Test"
+description: "Prueba de una característica o mejora."
+title: "[Test] "
+labels: ["test"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # **🚀 Solicitud de Prueba**
+  - type: textarea
+    attributes:
+      label: "Describe las pruebas."
+      description: "Proporciona una descripción clara y concisa de las pruebas."
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+name: "🚀🆕 Cambio en el frontend"
+description: "Característica o mejora en el frontend."
+title: "[Frontend] "
+labels: ["frontend"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # **🚀 Solicitud de Funcionalidad**
+  - type: textarea
+    attributes:
+      label: "Describe la interfaz."
+      description: "Proporciona una descripción clara y concisa de la interfaz."
+    validations:
+      required: true

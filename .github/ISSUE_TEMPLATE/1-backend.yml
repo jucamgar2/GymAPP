@@ -1,0 +1,15 @@
+name: "🚀🆕 Cambio en el backend"
+description: "Característica o mejora en el backend."
+title: "[Backend] "
+labels: ["backend"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # **🚀 Solicitud de Funcionalidad**
+  - type: textarea
+    attributes:
+      label: "Describe la funcionalidad."
+      description: "Proporciona una descripción clara y concisa de lo que implica la funcionalidad."
+    validations:
+      required: true
